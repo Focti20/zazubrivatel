@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Зазубриватель</title>
+    <title>Learn Verse</title>
+    <meta name="description" content="Learn Verse — сайт для заучивания текста с постепенным скрытием слов. Помогает легко и эффективно запоминать стихотворения.">
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="shortcut icon" type="image/png" href="icon.png">
     <style>
         * {
             box-sizing: border-box;
@@ -196,7 +199,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>Зазубриватель</h1>
+        <h1 style="display: flex; align-items: center; justify-content: center; gap: 18px;">
+            <span>Learn Verse</span>
+            <img src="Full_image.png" alt="Логотип" style="height: 44px; width: 44px; object-fit: contain; margin-left: 8px;" />
+        </h1>
         
         <div class="header-controls">
             <div class="level-display">Уровень: <span id="level-title">0</span></div>
@@ -224,12 +230,13 @@
             <p>• При переходе на уровни 1-10 текст постепенно скрывается</p>
             <p>• На каждом уровне нужно прочитать весь текст</p>
             <p>• Забытые слова можно подсматривать на более легком уровне</p>
+            <p>• После 10 уровня текст будет выучен :)</p>
             <p>• Все изменения сохраняются при перезагрузке страницы</p>
         </div>
     </div>
 
     <footer class="site-footer">
-        &copy; 2025 Хасанов Т. Р.
+        &copy; 2025 Хасанов Т.Р.
     </footer>
 
     <script>
